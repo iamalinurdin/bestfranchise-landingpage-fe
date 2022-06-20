@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import MainLayout from '../components/layout/MainLayout'
 
 Vue.use(VueRouter)
 
@@ -8,7 +8,10 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: () => import('@/views/HomeView'),
+    meta: {
+      layout: MainLayout
+    }
   },
   {
     path: '/about',
