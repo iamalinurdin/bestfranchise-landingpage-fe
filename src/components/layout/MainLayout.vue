@@ -34,7 +34,7 @@
                 <a class="nav-link">Galeri</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Karir</a>
+                <router-link :to="{name: 'career.index'}" class="nav-link">Karir</router-link>
               </li>
               <li class="nav-item">
                 <a class="nav-link">Hubungi Kami</a>

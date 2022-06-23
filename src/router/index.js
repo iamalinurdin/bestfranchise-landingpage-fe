@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import MainLayout from '../components/layout/MainLayout'
+import MainLayout from '@/components/layout/MainLayout'
+import career from './routes/career'
 
 Vue.use(VueRouter)
 
@@ -28,7 +29,8 @@ const routes = [
     meta: {
       layout: MainLayout
     }
-  }
+  },
+  ...career,
 ]
 
 const router = new VueRouter({

@@ -8,6 +8,7 @@ import {
   faMapPin as fasMapPin,
   faComment as fasComment,
   faShareAlt as fasShareAlt,
+  faSearch as fasSearch,
 } from '@fortawesome/free-solid-svg-icons'
 
 import { 
@@ -36,7 +37,8 @@ library.add(
   fabLinkedin,
   fabFacebook,
   fasComment,
-  fasShareAlt
+  fasShareAlt,
+  fasSearch
 )
 
 Vue.component('font-awesome', FontAwesomeIcon)
