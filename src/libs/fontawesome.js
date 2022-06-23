@@ -6,6 +6,8 @@ import {
   faPhone as fasPhone,
   faArrowRight as fasArrowRight,
   faMapPin as fasMapPin,
+  faComment as fasComment,
+  faShareAlt as fasShareAlt,
 } from '@fortawesome/free-solid-svg-icons'
 
 import { 
@@ -33,6 +35,8 @@ library.add(
   fabTwitter,
   fabLinkedin,
   fabFacebook,
+  fasComment,
+  fasShareAlt
 )
 
 Vue.component('font-awesome', FontAwesomeIcon)

@@ -23,7 +23,7 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="#">Franchise</a>
+                    <router-link class="dropdown-item" :to="{name: 'product.franchise'}">Franchise</router-link>
                   </li>
                   <li>
                     <a class="dropdown-item" href="#">Kemitraan</a>
