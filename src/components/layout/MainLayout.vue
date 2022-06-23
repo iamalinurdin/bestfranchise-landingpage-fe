@@ -12,10 +12,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                <router-link class="nav-link" aria-current="page" :to="{name: 'home'}">Beranda</router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tentang Kami</a>
+                <router-link class="nav-link" :to="{name: 'about'}">Tentang Kami</router-link>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,7 +44,7 @@
         </div>
       </nav>
       <div class="container">
-        <ul class="list-unstyled d-flex gap-3 justify-content-end">
+        <ul class="list-unstyled d-flex gap-3 justify-content-end mt-3">
           <li>
             <font-awesome :icon="['fas', 'phone']" class="text-primary"></font-awesome>
             <span class="ms-2">081234567890</span>
@@ -146,6 +146,10 @@
 </template>
 
 <style>
+.wrapper {
+  background-image: linear-gradient(to top, #ffffff, #fafbff, #f2f7ff, #e8f4fe, #ddf1fc);
+}
+
 footer {
   padding: 50px 100px;
 }

@@ -278,7 +278,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .jumbotron {
   position: relative;
   padding-left: 0;

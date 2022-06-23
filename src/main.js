@@ -6,6 +6,7 @@ import store from './store'
 // libs
 import '@/libs/fontawesome'
 import '@/libs/carousel'
+import '@/libs/google-maps'
 import 'bootstrap'
 import 'bootstrap/scss/bootstrap.scss'
 
