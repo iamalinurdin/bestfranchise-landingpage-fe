@@ -1,81 +1,85 @@
 <template>
   <div class="home">
     <!-- section: jumbotron -->
-    <section class="jumbotron container">
-      <div class="description w-50">
-        <span class="badge bg-primary p-3 rounded-pill">#1 Franchise Brand</span>
-        <h1 class="fw-bold mt-3 lh-base">
-          Temukan <span class="text-primary">Bisnis</span>
-          <br>
-          Terbaik Anda Disini
-        </h1>
-        <h4 class="text-primary">
-          One Stop Franchise Solution
-        </h4>
-        <p class="text-capitalize text-muted lh-base">
-          Bestbrend Adalah perusahaan yang bergerak dalam layanan operasional usaha produk dan jasa berbentuk jejaring waralaba nusantara
-        </p>
-        <router-link to="#" class="btn btn-primary rounded-4 px-5 py-3">Bergabung</router-link>
-        <ul class="list-unstyled d-flex gap-4 mt-5">
-          <li>
-            <h5 class="fw-bold">5.000+</h5>
-            <span class="text-muted">Customer</span>
-          </li>
-          <li>
-            <h5 class="fw-bold">100+</h5>
-            <span class="text-muted">Outlet</span>
-          </li>
-          <li>
-            <h5 class="fw-bold">1.000+</h5>
-            <span class="text-muted">Ratings</span>
-          </li>
-        </ul>
+    <section class="jumbotron">
+      <div class="container">
+        <div class="description w-50">
+          <span class="badge bg-primary p-3 rounded-pill">#1 Franchise Brand</span>
+          <h1 class="fw-bold mt-3 lh-base">
+            Temukan <span class="text-primary">Bisnis</span>
+            <br>
+            Terbaik Anda Disini
+          </h1>
+          <h4 class="text-primary">
+            One Stop Franchise Solution
+          </h4>
+          <p class="text-capitalize text-muted lh-base">
+            Bestbrend Adalah perusahaan yang bergerak dalam layanan operasional usaha produk dan jasa berbentuk jejaring waralaba nusantara
+          </p>
+          <router-link to="#" class="btn btn-primary rounded-4 px-5 py-3">Bergabung</router-link>
+          <ul class="list-unstyled d-flex gap-4 mt-5">
+            <li>
+              <h5 class="fw-bold">5.000+</h5>
+              <span class="text-muted">Customer</span>
+            </li>
+            <li>
+              <h5 class="fw-bold">100+</h5>
+              <span class="text-muted">Outlet</span>
+            </li>
+            <li>
+              <h5 class="fw-bold">1.000+</h5>
+              <span class="text-muted">Ratings</span>
+            </li>
+          </ul>
+        </div>
+        <img src="@/assets/img/jumbotron.png" alt="">
       </div>
-      <img src="@/assets/img/jumbotron.png" alt="">
     </section>
     <!-- section: jumbotron -->
 
     <!-- section: about -->
-    <section class="about container">
-      <div class="d-flex description">
-        <h1 class="fw-bold">
-          MENGAPA MEMILIH KAMI
-          <br> 
-          SEBAGAI <span class="text-primary">BISNIS TERBAIK BAGI ANDA</span>
-        </h1>
-        <p class="text-muted ms-auto">
-          Dengan harga investasi yang terjangkau, 
-          <br> 
-          mitra dapat mendapatkan penghasilan
-          <br> 
-          yang memuaskan.
-        </p>
-      </div>
-      <div class="row descriptions">
-        <div class="col-md-4 description-list">
-          <div class="card rounded-4 border-0">
-            <div class="card-body">
-              <img src="@/assets/svg/Frame 20.svg" alt="">
-              <h4 class="fw-bold m-0 mt-3">Lebih Cepat</h4>
-              <p class="mb-0 mt-3">Sudah terdapat panduan bisnis yang tinggal diikuti sehingga keuntungan franchise bisa didapat lebih cepat.</p>
+    <section class="about">
+      <div class="container">
+        <div class="d-flex description">
+          <h1 class="fw-bold">
+            MENGAPA MEMILIH KAMI
+            <br> 
+            SEBAGAI <span class="text-primary">BISNIS TERBAIK BAGI ANDA</span>
+          </h1>
+          <p class="text-muted ms-auto">
+            Dengan harga investasi yang terjangkau, 
+            <br> 
+            mitra dapat mendapatkan penghasilan
+            <br> 
+            yang memuaskan.
+          </p>
+        </div>
+        <div class="row descriptions">
+          <div class="col-md-4 description-list">
+            <div class="card rounded-4 border-0">
+              <div class="card-body">
+                <img src="@/assets/svg/Frame 20.svg" alt="">
+                <h4 class="fw-bold m-0 mt-3">Lebih Cepat</h4>
+                <p class="mb-0 mt-3">Sudah terdapat panduan bisnis yang tinggal diikuti sehingga keuntungan franchise bisa didapat lebih cepat.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4 description-list">
-          <div class="card rounded-4 border-0">
-            <div class="card-body">
-              <img src="@/assets/svg/Frame 20.svg" alt="">
-              <h4 class="fw-bold m-0 mt-3">Tidak Perlu marketing</h4>
-              <p class="mb-0 mt-3">Merk Bisnis Franchise adalah brand yang sudah dikenal oleh banyak orang, sehingga tidak memerlukan marketing yang berat.</p>
+          <div class="col-md-4 description-list">
+            <div class="card rounded-4 border-0">
+              <div class="card-body">
+                <img src="@/assets/svg/Frame 20.svg" alt="">
+                <h4 class="fw-bold m-0 mt-3">Tidak Perlu marketing</h4>
+                <p class="mb-0 mt-3">Merk Bisnis Franchise adalah brand yang sudah dikenal oleh banyak orang, sehingga tidak memerlukan marketing yang berat.</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4 description-list">
-          <div class="card rounded-4 border-0">
-            <div class="card-body">
-              <img src="@/assets/svg/Frame 20.svg" alt="">
-              <h4 class="fw-bold m-0 mt-3">Dukungan Pelatihan</h4>
-              <p class="mb-0 mt-3">Anda akan mendapatkan pelatihan dan dukungan bisnis dari franchisor, mulai dari aspek terkecil perusahaan.</p>
+          <div class="col-md-4 description-list">
+            <div class="card rounded-4 border-0">
+              <div class="card-body">
+                <img src="@/assets/svg/Frame 20.svg" alt="">
+                <h4 class="fw-bold m-0 mt-3">Dukungan Pelatihan</h4>
+                <p class="mb-0 mt-3">Anda akan mendapatkan pelatihan dan dukungan bisnis dari franchisor, mulai dari aspek terkecil perusahaan.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -84,74 +88,76 @@
     <!-- section: about -->
 
     <!-- section: brand -->
-    <section class="brand container">
-      <p class="text-muted text-center text-lowercase">BRAND DI BAWAH INI SANGAT MENGUNTUNGKAN DARI SISTEM BISNIS NYA</p>
-      <h2 class="text-center">
-        BRAND YANG KAMI
-        <br>
-        <span class="text-primary">REKOMENDASIKAN</span> UNTUK ANDA
-      </h2>
-      <ul class="nav nav-pills brand-tabs my-3 d-flex justify-content-center gap-3" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button class="btn btn-outline-primary rounded-pill active" id="pills-food-tab" data-bs-toggle="pill" data-bs-target="#pills-food" type="button" role="tab" aria-controls="pills-food" aria-selected="true">
-            Makanan
-          </button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="btn btn-outline-primary rounded-pill" id="pills-beverage-tab" data-bs-toggle="pill" data-bs-target="#pills-beverage" type="button" role="tab" aria-controls="pills-beverage" aria-selected="false">
-            Minuman
-          </button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="btn btn-outline-primary rounded-pill" id="pills-utility-tab" data-bs-toggle="pill" data-bs-target="#pills-utility" type="button" role="tab" aria-controls="pills-utility" aria-selected="false">
-            Utilitas
-          </button>
-        </li>
-      </ul>
-      <div class="tab-content container" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-food" role="tabpanel" aria-labelledby="pills-food-tab" tabindex="0">
-          <div class="row brand-list d-flex justify-content-center">
-            <div class="col-md-4 brand-item" v-for="(brand, index) in 5" :key="index">
-              <div class="card rounded-4 border-0 mb-5">
-                <div class="card-body text-center p-5">
-                  <img src="@/assets/logo.png" height="100" alt="">
-                  <p class="fw-bold">Food Brand Name {{ index }}</p>
-                  <a href="#" class="btn btn-primary rounded-pill">
-                    Info Lebih Lanjut
-                    <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
-                  </a>
+    <section class="brand">
+      <div class="container">
+        <p class="text-muted text-center text-lowercase">BRAND DI BAWAH INI SANGAT MENGUNTUNGKAN DARI SISTEM BISNIS NYA</p>
+        <h2 class="text-center">
+          BRAND YANG KAMI
+          <br>
+          <span class="text-primary">REKOMENDASIKAN</span> UNTUK ANDA
+        </h2>
+        <ul class="nav nav-pills brand-tabs my-3 d-flex justify-content-center gap-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="btn btn-outline-primary rounded-pill active" id="pills-food-tab" data-bs-toggle="pill" data-bs-target="#pills-food" type="button" role="tab" aria-controls="pills-food" aria-selected="true">
+              Makanan
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="btn btn-outline-primary rounded-pill" id="pills-beverage-tab" data-bs-toggle="pill" data-bs-target="#pills-beverage" type="button" role="tab" aria-controls="pills-beverage" aria-selected="false">
+              Minuman
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="btn btn-outline-primary rounded-pill" id="pills-utility-tab" data-bs-toggle="pill" data-bs-target="#pills-utility" type="button" role="tab" aria-controls="pills-utility" aria-selected="false">
+              Utilitas
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content container" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-food" role="tabpanel" aria-labelledby="pills-food-tab" tabindex="0">
+            <div class="row brand-list d-flex justify-content-center">
+              <div class="col-md-4 brand-item" v-for="(brand, index) in 5" :key="index">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Food Brand Name {{ index }}</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="tab-pane fade" id="pills-beverage" role="tabpanel" aria-labelledby="pills-beverage-tab" tabindex="0">
-          <div class="row brand-list d-flex justify-content-center">
-            <div class="col-md-4 brand-item" v-for="(brand, index) in 5" :key="index">
-              <div class="card rounded-4 border-0 mb-5">
-                <div class="card-body text-center p-5">
-                  <img src="@/assets/logo.png" height="100" alt="">
-                  <p class="fw-bold">Beverage Brand Name {{ index }}</p>
-                  <a href="#" class="btn btn-primary rounded-pill">
-                    Info Lebih Lanjut
-                    <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
-                  </a>
+          <div class="tab-pane fade" id="pills-beverage" role="tabpanel" aria-labelledby="pills-beverage-tab" tabindex="0">
+            <div class="row brand-list d-flex justify-content-center">
+              <div class="col-md-4 brand-item" v-for="(brand, index) in 5" :key="index">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Beverage Brand Name {{ index }}</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="tab-pane fade" id="pills-utility" role="tabpanel" aria-labelledby="pills-utility-tab" tabindex="0">
-          <div class="row brand-list d-flex justify-content-center">
-            <div class="col-md-4 brand-item" v-for="(brand, index) in 5" :key="index">
-              <div class="card rounded-4 border-0 mb-5">
-                <div class="card-body text-center p-5">
-                  <img src="@/assets/logo.png" height="100" alt="">
-                  <p class="fw-bold">Utility Brand Name {{ index }}</p>
-                  <a href="#" class="btn btn-primary rounded-pill">
-                    Info Lebih Lanjut
-                    <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
-                  </a>
+          <div class="tab-pane fade" id="pills-utility" role="tabpanel" aria-labelledby="pills-utility-tab" tabindex="0">
+            <div class="row brand-list d-flex justify-content-center">
+              <div class="col-md-4 brand-item" v-for="(brand, index) in 5" :key="index">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Utility Brand Name {{ index }}</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -162,38 +168,42 @@
     <!-- section: brand -->
 
     <!-- section: gallery -->
-    <section class="gallery container">
-      <h4 class="fw-bold">
-        Galeri Usaha <span class="text-primary">Waralaba</span>
-      </h4>
-      <div class="p-5">
-        <carousel :navigationEnabled="true" paginationActiveColor="#319EF1" :scrollPerPage="true" :perPage="4">
-          <slide v-for="(slide, i) in 5" :key="i">
-            <figure>
-              <img src="@/assets/logo.png">
-              <figcaption>
-                The sky is the limit only for those who aren't afraid to fly! The sky is the limit only for those who aren't afraid to fly!
-              </figcaption>
-            </figure>
-          </slide>
-        </carousel>
+    <section class="gallery">
+      <div class="container">
+        <h4 class="fw-bold">
+          Galeri Usaha <span class="text-primary">Waralaba</span>
+        </h4>
+        <div class="p-5">
+          <carousel :navigationEnabled="true" paginationActiveColor="#319EF1" :scrollPerPage="true" :perPage="4">
+            <slide v-for="(slide, i) in 5" :key="i">
+              <figure>
+                <img src="@/assets/logo.png">
+                <figcaption>
+                  The sky is the limit only for those who aren't afraid to fly! The sky is the limit only for those who aren't afraid to fly!
+                </figcaption>
+              </figure>
+            </slide>
+          </carousel>
+        </div>
       </div>
     </section>
     <!-- section: gallery -->
 
     <!-- section: career -->
-    <section class="career container">
-      <div class="card p-5 text-white border-0 rounded-4">
-        <div class="card-body d-flex justify-content-start align-items-center gap-3">
-          <img src="@/assets/logo.png" height="50" alt="">
-          <div>
-            <h3 class="fw-bold">Interested in joining us?</h3>
-            <p class="m-0">see all jobs open on our website</p>
+    <section class="career">
+      <div class="container">
+        <div class="card p-5 text-white border-0 rounded-4">
+          <div class="card-body d-flex justify-content-start align-items-center gap-3">
+            <img src="@/assets/logo.png" height="50" alt="">
+            <div>
+              <h3 class="fw-bold">Interested in joining us?</h3>
+              <p class="m-0">see all jobs open on our website</p>
+            </div>
+            <router-link to="#" class="btn btn-light text-primary ms-auto align-self-baseline my-auto rounded-4">
+              Lihat Lowongan
+              <font-awesome :icon="['fas', 'arrow-right']"></font-awesome>
+            </router-link>
           </div>
-          <router-link to="#" class="btn btn-light text-primary ms-auto align-self-baseline my-auto rounded-4">
-            Lihat Lowongan
-            <font-awesome :icon="['fas', 'arrow-right']"></font-awesome>
-          </router-link>
         </div>
       </div>
     </section>
@@ -280,12 +290,17 @@ export default {
 
 <style scoped>
 .jumbotron {
+  padding: 25px 100px;
+  margin-bottom: 100px;
+}
+
+.jumbotron > .container {
   position: relative;
   padding-left: 0;
   padding-right: 0;
 }
 
-.jumbotron > img {
+.jumbotron > .container > img {
   position: absolute;
   right: 100px;
   top: 50px;
@@ -293,89 +308,109 @@ export default {
   width: 404px;
 }
 
-.jumbotron > .description > h1 {
+.jumbotron > .container > .description > h1 {
   font-size: 72px;
 }
 
-.jumbotron > .description > h4 {
+.jumbotron > .container > .description > h4 {
   font-size: 32px;
 }
 
 .about {
+  padding: 25px 100px;
+  margin-bottom: 100px;
+}
+
+.about > .container {
   padding: 50px 0px;
 }
 
-.about > .description > h1 {
+.about > .container > .description > h1 {
   font-size: 36px;
 }
 
-.about > .description > p {
+.about > .container > .description > p {
   font-size: 20px;
 }
 
-.about > .descriptions {
+.about > .container > .descriptions {
   margin-top: 60px;
 }
 
-.about > .descriptions > .description-list > .card > .card-body > p {
+.about > .container > .descriptions > .description-list > .card > .card-body > p {
   font-size: 16px;
 }
 
-.about > .descriptions > .description-list > .card {
+.about > .container > .descriptions > .description-list > .card {
   transition: .3s;
 }
 
-.about > .descriptions > .description-list > .card:hover {
+.about > .container > .descriptions > .description-list > .card:hover {
   box-shadow: 0px 50px 80px rgba(221, 241, 252, 0.5);
   transform: scale(1.1);
 }
 
-.brand > h2 {
+.brand {
+  padding: 25px 100px;
+  margin-bottom: 100px;
+}
+
+.brand > .container > h2 {
   font-size: 36px;
   line-height: 54px;
 }
 
-.brand > .brand-tabs > .nav-item > button {
+.brand > .container > .brand-tabs > .nav-item > button {
   padding: 16px 24px;
   font-size: 16px;
 }
 
-.brand > .tab-content > .tab-pane > .brand-list > .brand-item > .card {
+.brand > .container > .tab-content > .tab-pane > .brand-list > .brand-item > .card {
   filter: grayscale(100%);
 }
 
-.brand > .tab-content > .tab-pane > .brand-list > .brand-item > .card > .card-body > a {
+.brand > .container > .tab-content > .tab-pane > .brand-list > .brand-item > .card > .card-body > a {
   opacity: 0;
   transition: .3s;
   padding: 16px 32px;
 }
 
-.brand > .tab-content > .tab-pane > .brand-list > .brand-item > .card:hover {
+.brand > .container > .tab-content > .tab-pane > .brand-list > .brand-item > .card:hover {
   box-shadow: 0px 50px 80px rgba(221, 241, 252, 0.5);
   filter: grayscale(0%);
 }
 
-.brand > .tab-content > .tab-pane > .brand-list > .brand-item > .card:hover > .card-body > a {
+.brand > .container > .tab-content > .tab-pane > .brand-list > .brand-item > .card:hover > .card-body > a {
   opacity: 1;
 }
 
-.gallery > h1 {
+.gallery {
+  padding: 25px 100px;
+  margin-bottom: 100px;
+}
+
+.gallery > .container > h1 {
   font-size: 36px;
 }
 
-.career > .card {
+.career {
+  padding: 25px 100px;
+  margin-bottom: 100px;
+}
+
+.career > .container > .card {
   background-color: #319EF1;
 }
 
-.career > .card > .card-body > div > h3 {
+.career > .container > .card > .card-body > div > h3 {
   font-size: 40px;
 }
 
-.career > .card > .card-body > div > p {
+.career > .container > .card > .card-body > div > p {
   font-size: 24px;
 }
 
-.career > .card > .card-body > a {
+.career > .container > .card > .card-body > a {
   padding: 24px 32px;
 }
 
