@@ -44,7 +44,7 @@
         </div>
       </nav>
       <div class="container">
-        <ul class="list-unstyled d-flex gap-3 justify-content-end mt-3">
+        <ul class="list-unstyled d-flex gap-3 justify-content-end mt-3 flex-column flex-lg-row">
           <li>
             <font-awesome :icon="['fas', 'phone']" class="text-primary"></font-awesome>
             <span class="ms-2">081234567890</span>
@@ -58,17 +58,17 @@
     </header>
     <slot></slot>
     <footer>
-      <div class="container d-flex gap-5">
-        <div class="w-25 d-flex flex-column gap-3 justify-content-start">
+      <div class="container d-flex gap-5 flex-column flex-lg-row">
+        <div class="d-flex flex-column gap-3 justify-content-start about-company">
           <img src="@/assets/logo.png" height="40" width="40" alt="">
           <p class="text-muted">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore..
           </p>
-          <p class="mt-auto text-muted">
+          <p class="mt-auto text-muted d-none d-lg-block">
             Copyright Bestbrend
           </p>
         </div>
-        <div class="w-25">
+        <div class="">
           <h6 class="fw-bold">Fitur</h6>
           <ul class="list-unstyled d-flex flex-column gap-3 mt-3">
             <li>
@@ -88,7 +88,7 @@
             </li>
           </ul>
         </div>
-        <div class="w-25">
+        <div class="">
           <h6 class="fw-bold">Get in Touch</h6>
           <ul class="list-unstyled d-flex flex-column gap-3 mt-3">
             <li>
@@ -109,7 +109,7 @@
             </li>
           </ul>
         </div>
-        <div class="w-25">
+        <div class="">
           <h6 class="fw-bold">Our Social Media</h6>
           <ul class="list-unstyled d-flex gap-3 my-3">
             <li>
@@ -152,5 +152,27 @@
 
 footer {
   padding: 50px 100px;
+}
+
+footer > .container > div {
+  width: 25%;
+}
+
+@media only screen and (max-width: 576px) {
+  footer {
+    padding: 25px;
+  }
+
+  /* footer > .container {
+    flex-direction: column;
+  } */
+
+  footer > .container > div {
+    width: 100%;
+  }
+
+  /* footer > .container > .about-company > p:last-child {
+    display: none;
+  } */
 }
 </style>
