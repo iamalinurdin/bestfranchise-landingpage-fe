@@ -12,6 +12,10 @@
 </template>
 
 <style>
+:root {
+  --font-size-responsive-md: 2em;
+  --font-size-responsive-sm: 3em;
+}
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -3,7 +3,7 @@
     <!-- section: jumbotron -->
     <section class="jumbotron">
       <div class="container">
-        <div class="description w-50">
+        <div class="description">
           <span class="badge bg-primary p-3 rounded-pill">#1 Franchise Brand</span>
           <h1 class="fw-bold mt-3 lh-base">
             Temukan <span class="text-primary">Bisnis</span>
@@ -32,7 +32,7 @@
             </li>
           </ul>
         </div>
-        <img src="@/assets/img/jumbotron.png" alt="">
+        <img src="@/assets/img/jumbotron.png" class="d-none d-lg-block" alt="">
       </div>
     </section>
     <!-- section: jumbotron -->
@@ -40,7 +40,7 @@
     <!-- section: about -->
     <section class="about">
       <div class="container">
-        <div class="d-flex description">
+        <div class="d-flex flex-column flex-lg-row description">
           <h1 class="fw-bold">
             MENGAPA MEMILIH KAMI
             <br> 
@@ -192,14 +192,14 @@
     <!-- section: career -->
     <section class="career">
       <div class="container">
-        <div class="card p-5 text-white border-0 rounded-4">
-          <div class="card-body d-flex justify-content-start align-items-center gap-3">
-            <img src="@/assets/logo.png" height="50" alt="">
+        <div class="card text-white border-0 rounded-4">
+          <div class="card-body"> <!--  d-flex flex-column flex-lg-row justify-content-start align-items-center gap-3 -->
+            <img src="@/assets/img/besbrend-white.png" height="50" alt="">
             <div>
               <h3 class="fw-bold">Interested in joining us?</h3>
               <p class="m-0">see all jobs open on our website</p>
             </div>
-            <router-link to="#" class="btn btn-light text-primary ms-auto align-self-baseline my-auto rounded-4">
+            <router-link :to="{name: 'career.index'}" class="btn btn-light text-primary ms-auto align-self-baseline my-auto rounded-4">
               Lihat Lowongan
               <font-awesome :icon="['fas', 'arrow-right']"></font-awesome>
             </router-link>
@@ -212,7 +212,7 @@
     <!-- section: faq -->
     <section class="faq">
       <div class="container">
-        <div class="d-flex description">
+        <div class="d-flex flex-column flex-lg-row description">
           <h1 class="fw-bold">
             PERTANYAAN YANG SERING
             <br>
@@ -250,7 +250,7 @@
     <!-- section: subscribe -->
     <section class="subscribe">
       <div class="container">
-        <div class="card border-0 p-5 rounded-4">
+        <div class="card border-0 rounded-4">
           <div class="card-body text-center">
             <p class="text-primary">Lebih Dekat Dengan Kami</p>
             <h1 class="text-muted">
@@ -263,9 +263,9 @@
               <br>
               serta berbagai informasi terbaru dan perkembangan Bestbrend.
             </p>
-            <form>
-              <div class="input-group w-50 mx-auto rounded-pill bg-white p-1">
-                <input type="email" class="form-control bg-transparent border-0 rounded-pill rounded-end" placeholder="Enter your email address" aria-label="Enter your email address">
+            <form class="mx-auto">
+              <div class="input-group rounded-pill bg-white p-1">
+                <input type="email" class="form-control bg-transparent border-0 rounded-pill me-2" placeholder="Enter your email address" aria-label="Enter your email address">
                 <button class="btn btn-primary rounded-pill" type="submit">Subscribe</button>
               </div>
             </form>
@@ -308,6 +308,10 @@ export default {
   width: 404px;
 }
 
+.jumbotron > .container > .description {
+  width: 50%;
+}
+
 .jumbotron > .container > .description > h1 {
   font-size: 72px;
 }
@@ -321,9 +325,9 @@ export default {
   margin-bottom: 100px;
 }
 
-.about > .container {
+/* .about > .container {
   padding: 50px 0px;
-}
+} */
 
 .about > .container > .description > h1 {
   font-size: 36px;
@@ -400,6 +404,14 @@ export default {
 
 .career > .container > .card {
   background-color: #319EF1;
+  padding: 30px;
+}
+
+.career > .container > .card > .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .career > .container > .card > .card-body > div > h3 {
@@ -435,12 +447,79 @@ export default {
 
 .subscribe > .container > .card {
   background-color: #F2F9FF;
+  padding: 30px;
 }
 
-/* .subscribe > .container > .card > .card-body > .input-group {
-  border: 1px solid;
-  padding: 5px;
-  border-radius: 10px;
-  background-color: white;
-} */
+.subscribe > .container > .card > .card-body > form {
+  width: 50%;
+}
+
+@media only screen and (min-width: 576px) {
+  /* .jumbotron {
+    padding: 25px;
+  } */
+  .jumbotron > .container > img {
+    display: none;
+  }
+
+  .jumbotron > .container > .description {
+    width: 100%;
+  }
+
+  .jumbotron > .container > .description > h1 {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .jumbotron, 
+  .about,
+  .brand,
+  .career,
+  .faq,
+  .subscribe {
+    padding: 25px;
+  }
+
+  .jumbotron > .container > img {
+    display: none;
+  }
+
+  .gallery { 
+    display: none;
+  }
+
+  .jumbotron > .container > .description,
+  .faq > .container > .description,
+  .subscribe > .container
+  {
+    width: 100%;
+  }
+
+  .jumbotron > .container > .description > h1,
+  .about > .container > .description > h1,
+  .faq > .container > .description > h1 {
+    font-size: var(--font-size-responsive-md);
+  }
+
+  .about > .container > .descriptions > .description-list > .card {
+    margin-bottom: 20px;
+  }
+
+  .career > .container > .card {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .career > .container > .card > .card-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subscribe > .container > .card > .card-body > form {
+    width: 100%;
+  }
+}
 </style>

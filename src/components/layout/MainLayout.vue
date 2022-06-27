@@ -4,7 +4,7 @@
       <nav class="navbar navbar-expand-lg bg-transparent py-3">
         <div class="container">
           <a class="navbar-brand" href="#">
-            BestFranchise
+            <img src="@/assets/img/besbrend-blue.png" width="100" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -60,7 +60,7 @@
     <footer>
       <div class="container d-flex gap-5 flex-column flex-lg-row">
         <div class="d-flex flex-column gap-3 justify-content-start about-company">
-          <img src="@/assets/logo.png" height="40" width="40" alt="">
+          <img src="@/assets/img/besbrend-blue.png" width="75" alt="">
           <p class="text-muted">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore..
           </p>
@@ -72,16 +72,16 @@
           <h6 class="fw-bold">Fitur</h6>
           <ul class="list-unstyled d-flex flex-column gap-3 mt-3">
             <li>
-              <router-link to="#" class="text-decoration-none text-muted">Beranda</router-link>
+              <router-link :to="{name: 'home'}" class="text-decoration-none text-muted">Beranda</router-link>
             </li>
             <li>
-              <router-link to="#" class="text-decoration-none text-muted">Tentang Kami</router-link>
+              <router-link :to="{name: 'about'}" class="text-decoration-none text-muted">Tentang Kami</router-link>
             </li>
             <li>
               <router-link to="#" class="text-decoration-none text-muted">Galeri</router-link>
             </li>
             <li>
-              <router-link to="#" class="text-decoration-none text-muted">Karir</router-link>
+              <router-link :to="{name: 'career.index'}" class="text-decoration-none text-muted">Karir</router-link>
             </li>
             <li>
               <router-link to="#" class="text-decoration-none text-muted">Hubungi Kami</router-link>
@@ -113,24 +113,24 @@
           <h6 class="fw-bold">Our Social Media</h6>
           <ul class="list-unstyled d-flex gap-3 my-3">
             <li>
-              <router-link to="#">
+              <a href="https://instagram.com" target="_blank">
                 <font-awesome :icon="['fab', 'instagram']" size="xl" class="me-2"></font-awesome>
-              </router-link>
+              </a>
             </li>
             <li>
-              <router-link to="#">
+              <a href="https://facebook.com" target="_blank">
                 <font-awesome :icon="['fab', 'facebook']" size="xl" class="me-2"></font-awesome>
-              </router-link>
+              </a>
             </li>
             <li>
-              <router-link to="#">
+              <a href="https://twitter.com" target="_blank">
                 <font-awesome :icon="['fab', 'twitter']" size="xl" class="me-2"></font-awesome>
-              </router-link>
+              </a>
             </li>
             <li>
-              <router-link to="#">
+              <a href="https://linkedin.com" target="_blank">
                 <font-awesome :icon="['fab', 'linkedin']" size="xl" class="me-2"></font-awesome>
-              </router-link>
+              </a>
             </li>
             <li>
               <router-link to="#">
