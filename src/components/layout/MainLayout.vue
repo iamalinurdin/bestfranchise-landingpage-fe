@@ -3,9 +3,9 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-transparent py-3">
         <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="@/assets/img/besbrend-blue.png" width="100" alt="">
-          </a>
+          <router-link class="navbar-brand" :to="{name: 'home'}">
+            <img src="@/assets/logo/logo-horizontal-white.png" width="220" alt="">
+          </router-link>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -46,12 +46,16 @@
       <div class="container">
         <ul class="list-unstyled d-flex gap-3 justify-content-end mt-3 flex-column flex-lg-row">
           <li>
-            <font-awesome :icon="['fas', 'phone']" class="text-primary"></font-awesome>
-            <span class="ms-2">081234567890</span>
+            <a href="tel:+628989088881" class="text-decoration-none text-dark">
+              <font-awesome :icon="['fas', 'phone']" class="text-primary"></font-awesome>
+              <span class="ms-2">+628989088881</span>
+            </a>
           </li>
           <li>
-            <font-awesome :icon="['far', 'envelope']" class="text-primary"></font-awesome>
-            <span class="ms-2">info@bestfranchise.com</span>
+            <a href="https://wa.me/628122488881" class="text-decoration-none text-dark" target="_blank">
+              <font-awesome :icon="['fab', 'whatsapp']" class="text-primary"></font-awesome>
+              <span class="ms-2">+628122488881</span>
+            </a>
           </li>
         </ul>
       </div>
@@ -60,12 +64,12 @@
     <footer>
       <div class="container d-flex gap-5 flex-column flex-lg-row">
         <div class="d-flex flex-column gap-3 justify-content-start about-company">
-          <img src="@/assets/img/besbrend-blue.png" width="75" alt="">
+          <img src="@/assets/logo/logo-horizontal-white.png" width="180" alt="">
           <p class="text-muted">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore..
           </p>
           <p class="mt-auto text-muted d-none d-lg-block">
-            Copyright Bestbrend
+            Copyright Bestfranchise
           </p>
         </div>
         <div class="">
@@ -92,8 +96,10 @@
           <h6 class="fw-bold">Get in Touch</h6>
           <ul class="list-unstyled d-flex flex-column gap-3 mt-3">
             <li>
-              <font-awesome :icon="['fas', 'phone']" class="me-2"></font-awesome>
-              <span class="text-muted">08989088881</span>
+              <a href="tel:+628989088881" class="text-decoration-none text-dark">
+                <font-awesome :icon="['fas', 'phone']"></font-awesome>
+                <span class="ms-2 text-muted">+628989088881</span>
+              </a>
             </li>
             <li>
               <font-awesome :icon="['far', 'envelope']" class="me-2"></font-awesome>

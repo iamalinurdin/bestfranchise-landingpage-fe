@@ -14,7 +14,9 @@
             One Stop Franchise Solution
           </h4>
           <p class="text-capitalize text-muted lh-base">
-            Bestbrend Adalah perusahaan yang bergerak dalam layanan operasional usaha produk dan jasa berbentuk jejaring waralaba nusantara
+            Bestfranchise Adalah perusahaan yang bergerak dalam layanan
+            <br> operasional usaha produk dan jasa berbentuk jejaring waralaba
+            <br> nusantara
           </p>
           <router-link to="#" class="btn btn-primary rounded-4 px-5 py-3">Bergabung</router-link>
           <ul class="list-unstyled d-flex gap-4 mt-5">
@@ -42,7 +44,7 @@
       <div class="container">
         <div class="d-flex flex-column flex-lg-row description">
           <h1 class="fw-bold">
-            MENGAPA MEMILIH KAMI
+            MENGAPA MEMILIH <img src="@/assets/logo/logo-horizontal-white.png" width="200" alt="">
             <br> 
             SEBAGAI <span class="text-primary">BISNIS TERBAIK BAGI ANDA</span>
           </h1>
@@ -116,11 +118,191 @@
         <div class="tab-content container" id="pills-tabContent">
           <div class="tab-pane fade show active" id="pills-food" role="tabpanel" aria-labelledby="pills-food-tab" tabindex="0">
             <div class="row brand-list d-flex justify-content-center">
-              <div class="col-md-4 brand-item" v-for="(brand, index) in 5" :key="index">
+              <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
                     <img src="@/assets/logo.png" height="100" alt="">
-                    <p class="fw-bold">Food Brand Name {{ index }}</p>
+                    <p class="fw-bold">ChiCheese Fiesta</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Rocket Fried Chicken</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Warunk Gaulau</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">BoyBen</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Wingers</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Bakso Planet</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Tokiyo Bento</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Pesta Pizza</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Sejuta Raso</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Kchick</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Nihon Go</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Nonie's</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Martel Martabak Teladan</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Eskimos</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Nell'Q</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">BreadPit</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
                       <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
@@ -132,11 +314,35 @@
           </div>
           <div class="tab-pane fade" id="pills-beverage" role="tabpanel" aria-labelledby="pills-beverage-tab" tabindex="0">
             <div class="row brand-list d-flex justify-content-center">
-              <div class="col-md-4 brand-item" v-for="(brand, index) in 5" :key="index">
+              <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
                     <img src="@/assets/logo.png" height="100" alt="">
-                    <p class="fw-bold">Beverage Brand Name {{ index }}</p>
+                    <p class="fw-bold">BumBum Thai Tea</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Rocket Coffee</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Racikito</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
                       <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
@@ -148,11 +354,83 @@
           </div>
           <div class="tab-pane fade" id="pills-utility" role="tabpanel" aria-labelledby="pills-utility-tab" tabindex="0">
             <div class="row brand-list d-flex justify-content-center">
-              <div class="col-md-4 brand-item" v-for="(brand, index) in 5" :key="index">
+              <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
                     <img src="@/assets/logo.png" height="100" alt="">
-                    <p class="fw-bold">Utility Brand Name {{ index }}</p>
+                    <p class="fw-bold">Green Wash</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Purple Army Laundry</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Apotiku</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">AIA Pack</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Barbershop Best</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Rocket MotoCP</p>
+                    <a href="#" class="btn btn-primary rounded-pill">
+                      Info Lebih Lanjut
+                      <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 brand-item">
+                <div class="card rounded-4 border-0 mb-5">
+                  <div class="card-body text-center p-5">
+                    <img src="@/assets/logo.png" height="100" alt="">
+                    <p class="fw-bold">Eco Car</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
                       <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
@@ -170,17 +448,140 @@
     <!-- section: gallery -->
     <section class="gallery">
       <div class="container">
+        <img src="@/assets/logo/logo-horizontal-white.png" width="180" alt="">
         <h4 class="fw-bold">
           Galeri Usaha <span class="text-primary">Waralaba</span>
         </h4>
         <div class="p-5">
           <carousel :navigationEnabled="true" paginationActiveColor="#319EF1" :scrollPerPage="true" :perPage="4">
-            <slide v-for="(slide, i) in 5" :key="i">
-              <figure>
-                <img src="@/assets/logo.png">
-                <figcaption>
-                  The sky is the limit only for those who aren't afraid to fly! The sky is the limit only for those who aren't afraid to fly!
-                </figcaption>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/aiapack.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/apotiku.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/bakso-planet.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/barbershop.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/boyben.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/breadpit.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/bumbum.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/chi-cheese.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/ecocar.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/eskimos.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/green-wash.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/kchick.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/martel.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/motocp.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/nellq.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/nihongo.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/nonies.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/pesta-pizza.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/purple-army.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/racikito.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/rfc.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/rocket-coffee.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/sejuta-raso.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/tokiyo-bento.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/warunk-gaulau.jpeg" class="img-thumbnail">
+              </figure>
+            </slide>
+            <slide>
+              <figure class="mx-2">
+                <img src="@/assets/brosur/wingers.jpeg" class="img-thumbnail">
               </figure>
             </slide>
           </carousel>
@@ -194,7 +595,7 @@
       <div class="container">
         <div class="card text-white border-0 rounded-4">
           <div class="card-body"> <!--  d-flex flex-column flex-lg-row justify-content-start align-items-center gap-3 -->
-            <img src="@/assets/img/besbrend-white.png" height="50" alt="">
+            <img src="@/assets/logo/Artboard 1 copy.png" height="100" alt="">
             <div>
               <h3 class="fw-bold">Interested in joining us?</h3>
               <p class="m-0">see all jobs open on our website</p>
@@ -217,12 +618,12 @@
             PERTANYAAN YANG SERING
             <br>
             <span class="text-primary">DITANYAKAN</span> 
-            TENTANG BESTFRANCHISE
+            TENTANG  <img src="@/assets/logo/logo-horizontal-white.png" width="200" alt="">
           </h1>
           <p class="text-muted ms-auto">
             Rangkuman pertanyaan yang kami 
             <br> dapatkan apabila ada yang tertarik untuk 
-            <br> bergabung bersama bestbrend
+            <br> bergabung bersama Bestfranchise
           </p>
         </div>
         <div class="row mt-5">
@@ -261,7 +662,7 @@
             <p class="my-5">
               Silahkan masukan email anda untuk mendapatkan informasi mengenain promo dan program kami
               <br>
-              serta berbagai informasi terbaru dan perkembangan Bestbrend.
+              serta berbagai informasi terbaru dan perkembangan Bestfranchise.
             </p>
             <form class="mx-auto">
               <div class="input-group rounded-pill bg-white p-1">
