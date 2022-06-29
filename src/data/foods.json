@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "ChiCheese Fiesta",
+    "prices": {
+      "silver": "200jt",
+      "gold": "250jt",
+      "platinum": "300jt"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Rocket Fried Chicken",
+    "prices": {
+      "silver": "200jt",
+      "gold": "250jt",
+      "platinum": "300jt"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Warunk Gaulau",
+    "prices": {
+      "silver": "200jt",
+      "gold": "250jt",
+      "platinum": "300jt"
+    }
+  },
+  {
+    "id": 4,
+    "name": "BoyBen",
+    "prices": {
+      "silver": "200jt",
+      "gold": "250jt",
+      "platinum": "300jt"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Wingers",
+    "prices": {
+      "silver": "200jt",
+      "gold": "250jt",
+      "platinum": "300jt"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Bakso Planet",
+    "prices": {
+      "silver": "200jt",
+      "gold": "250jt",
+      "platinum": "300jt"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Tokiyo Bento",
+    "prices": {
+      "silver": "125jt",
+      "gold": "150jt",
+      "platinum": "175jt"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Pesta Pizza",
+    "prices": {
+      "silver": "200jt",
+      "gold": "250jt",
+      "platinum": "300jt"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Sejuta Raso",
+    "prices": {
+      "silver": "200jt",
+      "gold": "250jt",
+      "platinum": "300jt"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Kchick",
+    "prices": {
+      "silver": "200jt",
+      "gold": "250jt",
+      "platinum": "300jt"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Nonie's",
+    "prices": {
+      "silver": "200jt",
+      "gold": "250jt",
+      "platinum": "300jt"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Nihon Go",
+    "prices": {
+      "silver": "200jt",
+      "gold": "250jt",
+      "platinum": "300jt"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Martel Martabak Teladan",
+    "prices": {
+      "silver": "125jt",
+      "gold": "150jt",
+      "platinum": "175jt"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Nell'Q",
+    "prices": {
+      "silver": "200jt",
+      "gold": "250jt",
+      "platinum": "300jt"
+    }
+  },
+  {
+    "id": 15,
+    "name": "BreadPit",
+    "prices": {
+      "silver": "125jt",
+      "gold": "150jt",
+      "platinum": "175jt"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Eskimos",
+    "prices": {
+      "silver": "125jt",
+      "gold": "150jt",
+      "platinum": "175jt"
+    }
+  }
+]

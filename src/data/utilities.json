@@ -1,0 +1,65 @@
+[
+  {
+    "id": 20,
+    "name": "Green Wash",
+    "prices": {
+      "silver": "125jt",
+      "gold": "150jt",
+      "platinum": "175jt"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Purple Army Laundry",
+    "prices": {
+      "silver": "250jt",
+      "gold": "300jt",
+      "platinum": "450jt"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Apotiku",
+    "prices": {
+      "silver": "250jt",
+      "gold": "300jt",
+      "platinum": "450jt"
+    }
+  },
+  {
+    "id": 23,
+    "name": "AIA Pack",
+    "prices": {
+      "silver": "125jt",
+      "gold": "150jt",
+      "platinum": "175jt"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Barbershop Best",
+    "prices": {
+      "silver": "125jt",
+      "gold": "150jt",
+      "platinum": "175jt"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Rocket MotoCP",
+    "prices": {
+      "silver": "125jt",
+      "gold": "150jt",
+      "platinum": "175jt"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Eco Car",
+    "prices": {
+      "silver": "125jt",
+      "gold": "150jt",
+      "platinum": "175jt"
+    }
+  }
+]
