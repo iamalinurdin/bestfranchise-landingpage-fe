@@ -2,6 +2,7 @@
   {
     "id": 20,
     "name": "Green Wash",
+    "image": "@/assets/logo brand/greenwash logo.jpg",
     "prices": {
       "silver": "125jt",
       "gold": "150jt",
@@ -11,6 +12,7 @@
   {
     "id": 21,
     "name": "Purple Army Laundry",
+    "image": "@/assets/logo brand/chicheese logo.jpg",
     "prices": {
       "silver": "250jt",
       "gold": "300jt",
@@ -20,6 +22,7 @@
   {
     "id": 22,
     "name": "Apotiku",
+    "image": "@/assets/logo brand/chicheese logo.jpg",
     "prices": {
       "silver": "250jt",
       "gold": "300jt",
@@ -29,6 +32,7 @@
   {
     "id": 23,
     "name": "AIA Pack",
+    "image": "@/assets/logo brand/chicheese logo.jpg",
     "prices": {
       "silver": "125jt",
       "gold": "150jt",
@@ -38,6 +42,7 @@
   {
     "id": 24,
     "name": "Barbershop Best",
+    "image": "@/assets/logo brand/barbershop logo.jpg",
     "prices": {
       "silver": "125jt",
       "gold": "150jt",
@@ -47,6 +52,7 @@
   {
     "id": 25,
     "name": "Rocket MotoCP",
+    "image": "@/assets/logo brand/chicheese logo.jpg",
     "prices": {
       "silver": "125jt",
       "gold": "150jt",
@@ -56,6 +62,7 @@
   {
     "id": 26,
     "name": "Eco Car",
+    "image": "@/assets/logo brand/chicheese logo.jpg",
     "prices": {
       "silver": "125jt",
       "gold": "150jt",

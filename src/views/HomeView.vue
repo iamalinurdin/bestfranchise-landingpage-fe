@@ -121,7 +121,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/logo brand/chicheese logo.jpg" height="200" alt="">
                     <p class="fw-bold">ChiCheese Fiesta</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -133,7 +133,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/logo brand/rfc logo.jpg" height="200" alt="">
                     <p class="fw-bold">Rocket Fried Chicken</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -145,7 +145,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/logo brand/warunk gaulau logo.jpg" height="200" alt="">
                     <p class="fw-bold">Warunk Gaulau</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -157,7 +157,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/logo brand/boyben logo.jpg" height="200" alt="">
                     <p class="fw-bold">BoyBen</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -169,7 +169,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/logo brand/wingers logo.jpg" height="200" alt="">
                     <p class="fw-bold">Wingers</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -181,7 +181,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/logo brand/bakso planet logo.jpg" height="200" alt="">
                     <p class="fw-bold">Bakso Planet</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -193,7 +193,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/img/photo-unavailable.jpeg" height="200" alt="">
                     <p class="fw-bold">Tokiyo Bento</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -205,7 +205,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/img/photo-unavailable.jpeg" height="200" alt="">
                     <p class="fw-bold">Pesta Pizza</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -217,7 +217,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/logo brand/sejuta raso logo.jpg" height="200" alt="">
                     <p class="fw-bold">Sejuta Raso</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -229,7 +229,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/logo brand/kchick logo.jpg" height="200" alt="">
                     <p class="fw-bold">Kchick</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -241,7 +241,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/img/photo-unavailable.jpeg" height="200" alt="">
                     <p class="fw-bold">Nihon Go</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -253,7 +253,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/img/photo-unavailable.jpeg" height="200" alt="">
                     <p class="fw-bold">Nonie's</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -265,7 +265,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/img/photo-unavailable.jpeg" height="200" alt="">
                     <p class="fw-bold">Martel Martabak Teladan</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -277,7 +277,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/img/photo-unavailable.jpeg" height="200" alt="">
                     <p class="fw-bold">Eskimos</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -289,7 +289,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/logo brand/nellq dimsum logo.jpg" height="200" alt="">
                     <p class="fw-bold">Nell'Q</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -301,7 +301,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/img/photo-unavailable.jpeg" height="200" alt="">
                     <p class="fw-bold">BreadPit</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -317,8 +317,8 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
-                    <p class="fw-bold">BumBum Thai Tea</p>
+                    <img src="@/assets/img/bumbum.png" height="200" alt="">
+                    <p class="fw-bold mt-3">BumBum Thai Tea</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
                       <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
@@ -329,8 +329,8 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
-                    <p class="fw-bold">Rocket Coffee</p>
+                    <img src="@/assets/img/rocket-coffee.png" height="200" alt="">
+                    <p class="fw-bold mt-3">Rocket Coffee</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
                       <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
@@ -341,8 +341,8 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
-                    <p class="fw-bold">Racikito</p>
+                    <img src="@/assets/logo brand/racikito logo.jpg" height="200" alt="">
+                    <p class="fw-bold mt-3">Racikito</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
                       <font-awesome :icon="['fas', 'arrow-right']" class="ms-2"></font-awesome>
@@ -357,7 +357,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/logo brand/greenwash logo.jpg" height="200" alt="">
                     <p class="fw-bold">Green Wash</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -369,7 +369,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/img/photo-unavailable.jpeg" height="200" alt="">
                     <p class="fw-bold">Purple Army Laundry</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -381,7 +381,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/img/photo-unavailable.jpeg" height="200" alt="">
                     <p class="fw-bold">Apotiku</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -393,7 +393,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/img/photo-unavailable.jpeg" height="200" alt="">
                     <p class="fw-bold">AIA Pack</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -405,7 +405,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/logo brand/barbershop logo.jpg" height="200" alt="">
                     <p class="fw-bold">Barbershop Best</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -417,7 +417,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/img/photo-unavailable.jpeg" height="200" alt="">
                     <p class="fw-bold">Rocket MotoCP</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -429,7 +429,7 @@
               <div class="col-md-4 brand-item">
                 <div class="card rounded-4 border-0 mb-5">
                   <div class="card-body text-center p-5">
-                    <img src="@/assets/logo.png" height="100" alt="">
+                    <img src="@/assets/img/photo-unavailable.jpeg" height="200" alt="">
                     <p class="fw-bold">Eco Car</p>
                     <a href="#" class="btn btn-primary rounded-pill">
                       Info Lebih Lanjut
@@ -680,12 +680,19 @@
 
 <script>
 // @ is an alias to /src
+import foods from '@/data/foods.json'
+import beverages from '@/data/beverages.json'
+import utilities from '@/data/utilities.json'
 
 export default {
   name: 'HomeView',
-  components: {
-
-  }
+  data () {
+    return {
+      foods,
+      beverages,
+      utilities
+    }
+  },
 }
 </script>
 

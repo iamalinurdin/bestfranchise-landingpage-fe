@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "ChiCheese Fiesta",
+    "image": "@/assets/logo brand/chicheese logo.jpg",
     "prices": {
       "silver": "200jt",
       "gold": "250jt",
@@ -11,6 +12,7 @@
   {
     "id": 2,
     "name": "Rocket Fried Chicken",
+    "image": "@/assets/logo brand/rfc logo.jpg",
     "prices": {
       "silver": "200jt",
       "gold": "250jt",
@@ -20,6 +22,7 @@
   {
     "id": 3,
     "name": "Warunk Gaulau",
+    "image": "@/assets/logo brand/warunk gaulau logo.jpg",
     "prices": {
       "silver": "200jt",
       "gold": "250jt",
@@ -29,6 +32,7 @@
   {
     "id": 4,
     "name": "BoyBen",
+    "image": "@/assets/logo brand/boyben logo.jpg",
     "prices": {
       "silver": "200jt",
       "gold": "250jt",
@@ -38,6 +42,7 @@
   {
     "id": 5,
     "name": "Wingers",
+    "image": "@/assets/logo brand/wingers logo.jpg",
     "prices": {
       "silver": "200jt",
       "gold": "250jt",
@@ -47,6 +52,7 @@
   {
     "id": 6,
     "name": "Bakso Planet",
+    "image": "@/assets/logo brand/bakso planet logo.jpg",
     "prices": {
       "silver": "200jt",
       "gold": "250jt",
@@ -56,6 +62,7 @@
   {
     "id": 7,
     "name": "Tokiyo Bento",
+    "image": "@/assets/logo brand/chicheese logo.jpg",
     "prices": {
       "silver": "125jt",
       "gold": "150jt",
@@ -65,6 +72,7 @@
   {
     "id": 8,
     "name": "Pesta Pizza",
+    "image": "@/assets/logo brand/chicheese logo.jpg",
     "prices": {
       "silver": "200jt",
       "gold": "250jt",
@@ -74,6 +82,7 @@
   {
     "id": 9,
     "name": "Sejuta Raso",
+    "image": "@/assets/logo brand/sejuta raso logo.jpg",
     "prices": {
       "silver": "200jt",
       "gold": "250jt",
@@ -83,6 +92,7 @@
   {
     "id": 10,
     "name": "Kchick",
+    "image": "@/assets/logo brand/kchick logo.jpg",
     "prices": {
       "silver": "200jt",
       "gold": "250jt",
@@ -92,6 +102,7 @@
   {
     "id": 11,
     "name": "Nonie's",
+    "image": "@/assets/logo brand/chicheese logo.jpg",
     "prices": {
       "silver": "200jt",
       "gold": "250jt",
@@ -101,6 +112,7 @@
   {
     "id": 12,
     "name": "Nihon Go",
+    "image": "@/assets/logo brand/chicheese logo.jpg",
     "prices": {
       "silver": "200jt",
       "gold": "250jt",
@@ -110,6 +122,7 @@
   {
     "id": 13,
     "name": "Martel Martabak Teladan",
+    "image": "@/assets/logo brand/chicheese logo.jpg",
     "prices": {
       "silver": "125jt",
       "gold": "150jt",
@@ -119,6 +132,7 @@
   {
     "id": 14,
     "name": "Nell'Q",
+    "image": "@/assets/logo brand/nellq dimsum logo.jpg",
     "prices": {
       "silver": "200jt",
       "gold": "250jt",
@@ -128,6 +142,7 @@
   {
     "id": 15,
     "name": "BreadPit",
+    "image": "@/assets/logo brand/chicheese logo.jpg",
     "prices": {
       "silver": "125jt",
       "gold": "150jt",
@@ -137,6 +152,7 @@
   {
     "id": 16,
     "name": "Eskimos",
+    "image": "@/assets/logo brand/chicheese logo.jpg",
     "prices": {
       "silver": "125jt",
       "gold": "150jt",
