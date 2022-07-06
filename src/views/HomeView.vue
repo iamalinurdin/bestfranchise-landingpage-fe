@@ -34,7 +34,7 @@
             </li>
           </ul>
         </div>
-        <img src="@/assets/img/jumbotron.png" class="d-none d-lg-block" alt="">
+        <img src="@/assets/img/img-jumbotron.png" class="d-none d-lg-block" alt="">
       </div>
     </section>
     <!-- section: jumbotron -->
@@ -710,10 +710,10 @@ export default {
 
 .jumbotron > .container > img {
   position: absolute;
-  right: 100px;
-  top: 50px;
-  height: 520px;
-  width: 404px;
+  right: 0;
+  top: 0;
+  /* height: 520px; */
+  /* width: 404px; */
 }
 
 .jumbotron > .container > .description {
