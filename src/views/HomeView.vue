@@ -627,17 +627,94 @@
           </p>
         </div>
         <div class="row mt-5">
-          <div class="col-md-6" v-for="(num, index) in 5" :key="index">
-            <div class="accordion mb-3" id="accordionExample">
+          <div class="col-md-6">
+            <div class="accordion mb-3" id="faq-1-accordion">
               <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Lorem ipsum dolor sit amet
+                <h2 class="accordion-header" id="faq-1-accordion-item">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1" aria-expanded="true" aria-controls="faq-1">
+                    Apakah franchise itu lebih menguntungkan dibandingkan membuat 
+                    <br>usaha sendiri?
                   </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div id="faq-1" class="accordion-collapse collapse" aria-labelledby="faq-1-accordion-item" data-bs-parent="#faq-1-accordion">
                   <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    Usaha sendiri lebih unggul dibandingkan franchise. Memiliki usaha sendiri sama artinya dengan memiliki 
+                    semua hak untuk membuat kebijakan sesuai dengan keinginan. Sebuah keuntungan yang tidak bisa didapat 
+                    oleh pemilik bisnis franchise.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="accordion mb-3" id="faq-2-accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="faq-2-accordion-item">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2" aria-expanded="true" aria-controls="faq-2">
+                    Mengapa bisnis franchise menguntungkan?
+                  </button>
+                </h2>
+                <div id="faq-2" class="accordion-collapse collapse" aria-labelledby="faq-2-accordion-item" data-bs-parent="#faq-2-accordion">
+                  <div class="accordion-body">
+                    Karena perusahaan-perusahaan franchise memiliki model bisnis yang telah teruji dan terbukti efektif. 
+                    Selain itu, kamu juga tidak perlu berkali-kali mengeluarkan modal usaha karena umumnya usaha tipe ini 
+                    memberlakukan sistem pembayaran di awal.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="accordion mb-3" id="faq-3-accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="faq-3-accordion-item">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3" aria-expanded="true" aria-controls="faq-3">
+                    Bisnis franchise itu seperti apa?
+                  </button>
+                </h2>
+                <div id="faq-3" class="accordion-collapse collapse" aria-labelledby="faq-3-accordion-item" data-bs-parent="#faq-3-accordion">
+                  <div class="accordion-body">
+                    Secara umum dan mendetail, bisnis franchise adalah bentuk kerja sama usaha antara pemilik merk dagang, 
+                    produk, atau sistem operasional. Kerja sama ini didelegasikan kepada pihak kedua yang berhak 
+                    mendapatkan izin untuk pemakaian merek, produk, serta sistem operasional tersebut dalam menjalankan 
+                    sebuah usaha.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="accordion mb-3" id="faq-4-accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="faq-4-accordion-item">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4" aria-expanded="true" aria-controls="faq-4">
+                    Berapa lama franchise berlaku?
+                  </button>
+                </h2>
+                <div id="faq-4" class="accordion-collapse collapse" aria-labelledby="faq-4-accordion-item" data-bs-parent="#faq-4-accordion">
+                  <div class="accordion-body">
+                    Ketentuan mengenai jangka waktu perjanjian waralaba ini dapat ditentukan dalam Pasal 8 Keputusan 
+                    Menteri Perindustrian dan Perdagangan No.259/MPP/Kep/1997 yang berbunyi : 
+                    “jangka waktu perjanjian waralaba berlaku sekurang-kurangnya 5 (lima) tahun”.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="accordion mb-3" id="faq-5-accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="faq-5-accordion-item">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-5" aria-expanded="true" aria-controls="faq-5">
+                    Keuntungan apa saja yang didapat oleh franchisor dan franchisee dalam sistem franchise?
+                  </button>
+                </h2>
+                <div id="faq-5" class="accordion-collapse collapse" aria-labelledby="faq-5-accordion-item" data-bs-parent="#faq-5-accordion">
+                  <div class="accordion-body">
+                    Pemilik bisnis atau franchisor dapat membangun jaringan bisnis dengan sistem franchise ini, 
+                    dengan waktu yang relative singkat, modal, risiko, dan investasi SDM yang terbatas. Selain itu 
+                    franchisor juga bisa meminimalisir biaya riset pasar namun produk yang tiwarakan tetap bisa 
+                    diterima oleh pasar.
                   </div>
                 </div>
               </div>
