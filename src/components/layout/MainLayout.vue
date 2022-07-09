@@ -66,7 +66,7 @@
         <div class="d-flex flex-column gap-3 justify-content-start about-company">
           <img src="@/assets/logo/logo-horizontal-white.png" width="180" alt="">
           <p class="text-muted">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore..
+            PT Best Franchise Indonesia adalah perusahaan yang menaungi Franchise Franchise di Indonesia dengan kisaran harga franchise dibawah 250 juta.
           </p>
           <p class="mt-auto text-muted d-none d-lg-block">
             Copyright Bestfranchise
