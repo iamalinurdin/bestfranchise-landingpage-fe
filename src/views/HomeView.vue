@@ -34,7 +34,7 @@
             </li>
           </ul>
         </div>
-        <img src="@/assets/img/img-jumbotron.png" class="d-none d-lg-block" alt="">
+        <img src="@/assets/img/Group 8444.png" class="d-none d-lg-block" alt="">
       </div>
     </section>
     <!-- section: jumbotron -->
@@ -595,7 +595,7 @@
       <div class="container">
         <div class="card text-white border-0 rounded-4">
           <div class="card-body"> <!--  d-flex flex-column flex-lg-row justify-content-start align-items-center gap-3 -->
-            <img src="@/assets/logo/Artboard 1 copy.png" height="100" alt="">
+            <img src="@/assets/logo/logo-horizontal-white.png" height="100" alt="">
             <div>
               <h3 class="fw-bold">Interested in joining us?</h3>
               <p class="m-0">see all jobs open on our website</p>
